@@ -1,8 +1,8 @@
-public int add(int [] a ) {
+public int sub(int [] a ) {
 
 int val = 0 ; 
 for(int i ; i < a.size() ; i++){
-val = val + a[i];
+val = val - a[i];
 }
 
 return val 
